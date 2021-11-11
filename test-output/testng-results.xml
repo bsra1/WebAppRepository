@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17807" started-at="2021-11-11T12:41:02Z" finished-at="2021-11-11T12:41:20Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru.springframework.BootWebRunnerTest@7920ba90]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="17807" started-at="2021-11-11T12:41:02Z" finished-at="2021-11-11T12:41:20Z">
+      <class name="guru.springframework.BootWebRunnerTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:guru.springframework.BootWebRunnerTest@7920ba90]" name="setUpClass" is-config="true" duration-ms="375" started-at="2021-11-11T12:41:02Z" finished-at="2021-11-11T12:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a10b263]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru.springframework.BootWebRunnerTest@7920ba90]" name="runScenario" duration-ms="8419" started-at="2021-11-11T12:41:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-11T12:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get first product page and copy link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[View images]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru.springframework.BootWebRunnerTest@7920ba90]" name="runScenario" duration-ms="4442" started-at="2021-11-11T12:41:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-11T12:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get second product page and copy link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[View images]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru.springframework.BootWebRunnerTest@7920ba90]" name="runScenario" duration-ms="4526" started-at="2021-11-11T12:41:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-11T12:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Product]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:guru.springframework.BootWebRunnerTest@7920ba90]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2021-11-11T12:41:20Z" finished-at="2021-11-11T12:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- guru.springframework.BootWebRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
